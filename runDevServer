@@ -1,0 +1,3 @@
+#!/bin/sh
+
+hugo serve -D --disableFastRender --port=$PORT --bind=$IP --baseURL=https://recipe-wadeziegler.c9users.io/ --theme=hugo-creative-portfolio --appendPort=false
