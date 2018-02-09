@@ -1,4 +1,4 @@
-baseurl = "https://recipe-wadeziegler.c9users.io/"
+baseurl = "https://recipez.netlify.com/"
 languageCode = "en-us"
 title = "Recipes"
 theme = "hugo-creative-portfolio"

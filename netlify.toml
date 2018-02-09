@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "hugo --baseURL=https://recipez.netlify.com/"
 
 [context.production.environment]
   HUGO_VERSION = "0.36"
@@ -13,3 +13,8 @@
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.36"
 
+[context.master]
+  command = "hugo -D --baseURL=https://master--recipez.netlify.com/"
+
+[context.uat]
+  command = "hugo --baseURL=https://uat--recipez.netlify.com/"
